@@ -1,0 +1,76 @@
+<svg viewBox="0 0 760 1080" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, 'Times New Roman', serif">
+  <rect x="0" y="0" width="760" height="1080" fill="#ffffff"/>
+
+  <!-- ===================== Panel 1: selection + popup menu ===================== -->
+  <text x="380" y="34" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#333333">1. Bôi đen một từ, bấm &quot;Hán Việt&quot;</text>
+
+  <!-- device bezel -->
+  <rect x="80" y="56" width="600" height="440" rx="22" fill="#efefef" stroke="#999999" stroke-width="2"/>
+  <!-- screen -->
+  <rect x="104" y="80" width="552" height="392" fill="#ffffff" stroke="#cccccc" stroke-width="1"/>
+
+  <!-- selection highlight, drawn first so it sits behind the text -->
+  <rect x="206" y="132" width="128" height="26" fill="#d9d9d9"/>
+
+  <!-- book text lines -->
+  <g font-size="20" fill="#1a1a1a">
+    <text x="128" y="118">Trong lịch sử dựng nước và giữ nước,</text>
+    <text x="128" y="152">vấn đề <tspan font-weight="700" fill="#111111">quốc gia</tspan> luôn gắn liền với</text>
+    <text x="128" y="186">tinh thần tự cường của dân tộc. Mỗi</text>
+    <text x="128" y="220">thế hệ đều mang trong mình trách</text>
+    <text x="128" y="254">nhiệm gìn giữ và phát triển những</text>
+    <text x="128" y="288">giá trị mà cha ông để lại.</text>
+  </g>
+
+  <!-- selection handles -->
+  <circle cx="206" cy="158" r="5" fill="#555555"/>
+  <circle cx="334" cy="132" r="5" fill="#555555"/>
+
+  <!-- popup menu bubble -->
+  <g>
+    <path d="M 240 300 L 270 300 L 255 316 Z" fill="#ffffff" stroke="#555555" stroke-width="1.5"/>
+    <rect x="150" y="186" width="420" height="114" rx="8" fill="#ffffff" stroke="#555555" stroke-width="1.5"/>
+    <g font-family="Arial, sans-serif" font-size="15" fill="#333333">
+      <text x="178" y="216">Sao chép</text>
+      <text x="178" y="246">Đánh dấu</text>
+      <text x="178" y="276">Từ điển</text>
+      <line x1="150" y1="226" x2="570" y2="226" stroke="#e0e0e0" stroke-width="1"/>
+      <line x1="150" y1="256" x2="570" y2="256" stroke="#e0e0e0" stroke-width="1"/>
+    </g>
+    <!-- highlighted "Hán Việt" button, the point of this plugin -->
+    <rect x="330" y="186" width="130" height="114" fill="#f4f4f4"/>
+    <rect x="330" y="186" width="130" height="114" fill="none" stroke="#111111" stroke-width="2"/>
+    <text x="395" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#111111">Hán Việt</text>
+    <text x="395" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#555555" font-style="italic">(nút do plugin thêm vào)</text>
+  </g>
+
+  <!-- arrow connecting the two panels -->
+  <g stroke="#555555" stroke-width="2" fill="none">
+    <line x1="380" y1="508" x2="380" y2="556"/>
+    <path d="M 368 544 L 380 560 L 392 544" />
+  </g>
+
+  <!-- ===================== Panel 2: result popup ===================== -->
+  <text x="380" y="606" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#333333">2. Xem chữ Hán gốc và nghĩa</text>
+
+  <rect x="140" y="628" width="480" height="300" rx="10" fill="#ffffff" stroke="#555555" stroke-width="2"/>
+  <!-- title bar -->
+  <rect x="140" y="628" width="480" height="48" rx="10" fill="#f0f0f0" stroke="#555555" stroke-width="2"/>
+  <rect x="140" y="660" width="480" height="16" fill="#f0f0f0"/>
+  <text x="380" y="660" text-anchor="middle" font-size="22" font-weight="700" fill="#111111">quốc gia</text>
+
+  <g font-family="'Noto Serif','Georgia',serif" font-size="19" fill="#1a1a1a">
+    <text x="166" y="722" font-weight="700">quốc:</text>
+    <text x="190" y="752">國 — nước, quốc gia</text>
+    <text x="166" y="794" font-weight="700">gia:</text>
+    <text x="190" y="824">家 — nhà, gia đình</text>
+    <text x="190" y="854">加 — thêm vào (như: gia tăng)</text>
+  </g>
+
+  <line x1="166" y1="880" x2="594" y2="880" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="380" y="908" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#888888" font-style="italic">chạy offline, từ điển đóng gói sẵn trong plugin</text>
+
+  <!-- footer -->
+  <text x="380" y="1000" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#999999">Minh hoạ ý tưởng giao diện — chưa phải ảnh chụp màn hình thật (chưa test trên thiết bị)</text>
+  <text x="380" y="1024" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#999999">koreader-hanviet-plugin</text>
+</svg>

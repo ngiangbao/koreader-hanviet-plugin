@@ -6,6 +6,11 @@ toàn offline, dùng từ điển nhỏ đóng gói sẵn trong plugin.
 
 Làm trên Kindle đã jailbreak chạy KOReader (test trên Kindle 11th gen, 2022).
 
+![Minh hoạ: bôi đen từ "quốc gia", bấm nút Hán Việt, hiện popup chữ Hán + nghĩa](assets/preview.svg)
+
+*Đây là hình minh hoạ ý tưởng giao diện do mình tự vẽ, chưa phải ảnh chụp màn
+hình thật — xem mục "Trạng thái / việc cần làm tiếp" bên dưới.*
+
 ## Cách hoạt động
 
 Chọn (bôi đen) một từ hoặc cụm từ tiếng Việt như bình thường → menu popup
